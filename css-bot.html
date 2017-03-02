@@ -4,8 +4,31 @@
 	<meta charset="utf-8" />
 	<title>Praktikum 03 - selektorite ülesanne</title>
 	<style type="text/css">
-	/*  SIIN KIRJELDADA SELEKTORID NING ELEMENDIS NÕUTUD STIIL */
-	
+		/*  SIIN KIRJELDADA SELEKTORID NING ELEMENDIS NÕUTUD STIIL */
+		p {
+			color: red;
+			
+		}
+		div {
+			width: 300px;
+			text-align: center;
+		}
+		
+		div > p {
+			background-color: grey;
+		}
+		
+		ul {
+			width: 90%;
+			background-color: #c0c0c0;
+			list-style: none;
+		}
+		
+		#keha {
+			background-color: green;
+		}
+		
+		
 	</style>
 </head>
 <body>
@@ -28,5 +51,8 @@
 		<p>&nbsp;</p>
 		<span class="jalg">OOOOOOOO</span> <span class="jalg">OOOOOOOO</span>
 	</div>
+	
+	<div id="keha">TEST</div>
+	
 </body>
 </html>
