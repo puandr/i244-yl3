@@ -3,21 +3,71 @@
 <head>
 	<meta charset="utf-8" />
 	<title>3 kodune töö</title>
+	<style type="text/css">
+		#roheline {
+			color: green;
+		}
+		
+		#allajoonitud {
+			text-decoration: underline;
+		}
+		
+		#tuhmroheline {
+			background-color: #336600;
+		}
+		
+		#topeltsuurustekst {
+			font-size: 2em;
+		}
+		
+		#monospace {
+			font-family: monospace;
+		}
+		
+		#paksmustjoonkollanetaust {
+			border: 4px solid black;
+			background-color: yellow;
+		}
+		
+		#ymaradnurgadkatkendlikjoon {
+			border: 15px dashed black;
+			border-radius: 10px;
+		}
+		
+		#kaldkirjaskeskelejoondatud {
+			font-style: italic;
+			text-align: center;
+		}
+		
+		#kursorcrosshairiks {
+			cursor: crosshair;
+		}
+		
+		.veiderklass {
+			color: yellow;
+			font-style: italic;
+			background-color: green;
+			font-size: 3em;
+			border: 7px dotted red;
+			border-radius: 5px;
+		}
+	</style>
 </head>
 <body>
 
-<p>minu sees olev tekst on roheline</p>
-<p>minu sees olev teks on alla joonitud</p>
-<p>minul on tuhmroheline taust</p>
-<p>minul on teistest 2x suurem fondi suurus</p>
-<p>minul on tekst monospace fondiga</p>
-<p>minul on must paks piirjoon ning kollane taust</p>
-<p>minul on ümmargused nurgad ja katkendlik piirjoon</p>
-<p>minu tekst onkaldkirjas ja keskele joondatud</p>
-<p>minu kohale minnes muudetakse kursor crosshair-iks</p>
+<p id="roheline">minu sees olev tekst on roheline</p>
+<p id=allajoonitud>minu sees olev teks on alla joonitud</p>
+<p id=tuhmroheline>minul on tuhmroheline taust</p>
+<p id=topeltsuurustekst>minul on teistest 2x suurem fondi suurus</p>
+<p id=monospace>minul on tekst monospace fondiga</p>
+<p id=paksmustjoonkollanetaust>minul on must paks piirjoon ning kollane taust</p>
+<p id=ymaradnurgadkatkendlikjoon>minul on ümmargused nurgad ja katkendlik piirjoon</p>
+<p id=kaldkirjaskeskelejoondatud>minu tekst on kaldkirjas ja keskele joondatud</p>
+<p id=kursorcrosshairiks>minu kohale minnes muudetakse kursor crosshair-iks</p>
 <!-- siia võite ise elemente juurde ka panna, et harjutada erinevaid CSS omadusi ja selektoreid -->
-
-
+<div>
+	<p class="veiderklass">Mina olen lihtsalt klassi näide</p>
+</div>
 <!-- JÄRGNEV EI OLE ÜLESANDEGA OTSESELT SEOTUD -->
 <hr/>
 <p>valideerimiseks: 
